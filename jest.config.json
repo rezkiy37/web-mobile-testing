@@ -1,0 +1,13 @@
+{
+  "preset": "@testing-library/react-native",
+  "moduleNameMapper": {
+    "^@/(.*)$": "<rootDir>/src/$1"
+  },
+  "transformIgnorePatterns": [
+    "<rootDir>/node_modules/(?!react-native)/",
+    "<rootDir>/node_modules/(?!expo-status-bar)/"
+  ],
+  "testPathIgnorePatterns": [
+    "<rootDir>/node_modules"
+  ]
+}
